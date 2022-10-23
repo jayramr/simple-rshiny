@@ -15,5 +15,7 @@ git clone https://github.com/jayramr/simple-rshiny.git
 docker build -t <name-of-image>  .
 ```
 6. Start the container
-7. docker run -p 4000:3838 <name-of-image>
+```
+docker run -p 4000:3838 <name-of-image>
+```
 8. Launch browser and hit "localhost:4000"
